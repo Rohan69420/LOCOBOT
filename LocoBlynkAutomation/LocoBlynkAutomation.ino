@@ -1,11 +1,11 @@
-#define BLYNK_TEMPLATE_ID ""
-#define BLYNK_DEVICE_NAME ""
-#define BLYNK_AUTH_TOKEN ""
+#define BLYNK_TEMPLATE_ID "TMPLQuhOnvGC"
+#define BLYNK_DEVICE_NAME "LOCOBOTenv"
+#define BLYNK_AUTH_TOKEN "7jR-hzzn5F4oWY-CDVbOTKax8NZRxauj"
 
 // Your WiFi credentials.
 // Set password to "" for open networks.
-char ssid[] = "";
-char pass[] = "";
+char ssid[] = "Ro";
+char pass[] = "1234567870";
 
 bool fetch_blynk_state = true;  //true or false
 
@@ -14,9 +14,9 @@ bool fetch_blynk_state = true;  //true or false
 #include <WiFiClient.h>
 #include <BlynkSimpleEsp32.h>
 
-#define LeftOutput 12 //D12
-#define RightOutput 13 //D13
-#define ReverseOutput 14 //D14
+#define LeftOutput 26 //D12
+#define RightOutput 25 //D13
+#define ReverseOutput 33 //D14
 
 #define wifiLed   27   //D27 WIFI STATUS CHECKER
 
@@ -66,9 +66,9 @@ void right(){
 void sentry(){
   //do i wanna use delay here? nopeee
   //TRIPLE PIN HIGH CONFIG
-  digitalWrite(LeftOutput, LOW);
-  digitalWrite(RightOutput, LOW);
-  digitalWrite(ReverseOutput, LOW);
+  digitalWrite(LeftOutput, HIGH);
+  digitalWrite(RightOutput, HIGH);
+  digitalWrite(ReverseOutput, HIGH);
 }
 
 void Cancel_All(){
