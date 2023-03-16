@@ -1,6 +1,6 @@
-#define BLYNK_TEMPLATE_ID "TMPLQuhOnvGC"
-#define BLYNK_DEVICE_NAME "LOCOBOTenv"
-#define BLYNK_AUTH_TOKEN "7jR-hzzn5F4oWY-CDVbOTKax8NZRxauj"
+#define BLYNK_TEMPLATE_ID ""
+#define BLYNK_DEVICE_NAME ""
+#define BLYNK_AUTH_TOKEN ""
 
 // Your WiFi credentials.
 // Set password to "" for open networks.
